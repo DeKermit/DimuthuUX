@@ -1010,7 +1010,7 @@ video {
 }
 
 .font-satoshi {
-  font-family: Satoshi Variable, sans-serif;
+  font-family: Satoshi-Variable, sans-serif;
 }
 
 .text-lg {
@@ -1360,12 +1360,17 @@ a#tag {
 }
 
 @font-face {
-  font-family: "Satoshi Variable";
+  font-family: 'Satoshi-Variable';
 
-  src:url("../fonts/Satoshi-Variable.ttf") format('ttf'),
-        url("../fonts/Satoshi-Variable.eot") format('eot'),
-        url("../fonts/Satoshi-Variable.woff") format('woff'),
-        url("../fonts/Satoshi-Variable.woff2") format('woff2');
+  src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('../fonts/Satoshi-Variable.woff') format('woff'),
+       url('../fonts/Satoshi-Variable.ttf') format('truetype');
+
+  font-weight: 300 900;
+
+  font-display: swap;
+
+  font-style: normal;
 }
 
 .hover\:bg-brightGreen:hover {
