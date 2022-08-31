@@ -1362,7 +1362,10 @@ a#tag {
 @font-face {
   font-family: "SATOSHI";
 
-  src: url("../fonts/Satoshi-Variable.ttf");
+  src:url("../fonts/Satoshi-Variable.ttf") format('ttf'),
+        url("../fonts/Satoshi-Variable.eot") format('eot'),
+        url("../fonts/Satoshi-Variable.woff") format('woff'),
+        url("../fonts/Satoshi-Variable.woff2") format('woff2');
 }
 
 .hover\:bg-brightGreen:hover {
