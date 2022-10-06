@@ -1128,6 +1128,20 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hiddenFeed {
+  opacity: 0;
+}
+
+.showGreen {
+  opacity: 1;
+  color: #F1FF29;
+}
+
+.showRed {
+  opacity: 1;
+  color: red;
+}
+
 b {
   color: #F1FF29;
 }
