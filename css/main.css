@@ -965,6 +965,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1085,6 +1090,10 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .backdrop-blur-sm {
@@ -1432,8 +1441,8 @@ a#tag {
 }
 
 @media (min-width: 768px) {
-  .md\:col-start-6 {
-    grid-column-start: 6;
+  .md\:col-start-5 {
+    grid-column-start: 5;
   }
 
   .md\:row-span-4 {
