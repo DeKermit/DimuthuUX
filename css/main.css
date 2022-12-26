@@ -691,12 +691,12 @@ video {
   display: none;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
@@ -938,6 +938,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1128,6 +1133,10 @@ video {
 .showGreen {
   opacity: 1;
   color: #F1FF29;
+}
+
+.containerHeight {
+  height:calc(100vh - 80px)
 }
 
 .showRed {
